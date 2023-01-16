@@ -1,0 +1,23 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/richardfogaca/fc-docker-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardfogaca/fc-docker-node/issues"
+  },
+  "homepage": "https://github.com/richardfogaca/fc-docker-node#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.0.1"
+  }
+}
