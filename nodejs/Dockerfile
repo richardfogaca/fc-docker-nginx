@@ -4,9 +4,8 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-RUN npm install
-
-RUN apk add --no-cache wget
+RUN apk add --no-cache wget && \
+    npm install
 
 ENV DOCKERIZE_VERSION v0.6.1
 RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSION/dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz \
